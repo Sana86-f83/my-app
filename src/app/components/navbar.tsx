@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { CiSearch } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { IoIosArrowDown } from "react-icons/io";
@@ -24,7 +23,7 @@ const Navbar = () => {
 
         <div className="flex  ">
           <input
-            className="flex absolute w-[310px] h-[54px] justify-between rounded-full ml-[978px] -mt-[40px] bg-bgblack   border border-offset-2 border-primarycolor"
+            className="flex absolute  w-[310px] h-[54px] justify-between rounded-full ml-[978px] -mt-[40px] bg-bgblack   border border-offset-2 border-primarycolor"
             type="text"
             placeholder="Search..."
           />
