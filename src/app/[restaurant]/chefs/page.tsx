@@ -21,7 +21,7 @@ const Food_Category = () => {
       <h1 className="h-[56px] w-[329px] flex  font-bold text-[48px]  ml-[1114px]">
         <span className="text-darkyellow flex h-[60px]">Me</span>et Our Chef
       </h1>
-      <div className="h-[391px] w-[1320px] ml-[603px] flex justify-between items-center bg-green-300 mt-[56px]">
+      <div className="h-[391px] w-[1320px] ml-[603px] flex justify-between items-center  mt-[56px]">
         {/* div of chef D. Estwood */}
         <div className="h-[391px] w-[312px] bg-lime-700">
           <Image

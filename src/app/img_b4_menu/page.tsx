@@ -3,17 +3,17 @@ import React from "react";
 
 const Img_b4_menu = () => {
   return (
-    <div className="h-[469px] w-[1920px] flex ml-[300px] text-white relative  ">
-      <div className="h-[247px] w-[1319px] absolute flex justify-between  mt-[112px] ">
+    <div className="h-[469px] w-[1920px] flex ml-[300px]  text-white relative ">
+      <div className="h-[247px] w-[1319px] absolute flex justify-between  ">
         <Image
           src={"/img_b4_menu/background_image.png"}
           alt="background_image"
           width={1923}
           height={469}
-          className="opacity-10"
+          className="opacity-20"
         ></Image>
       </div>
-      <div className="h-[247px] w-[218px] absolute mt-[112px]  ">
+      <div className="h-[247px] w-[218px] absolute  ">
         <div className="h-[120px] w-[120px]  ml-[48px]">
           <Image
             src={"/img_b4_menu/Professional Chefs.png"}
@@ -30,7 +30,7 @@ const Img_b4_menu = () => {
           420
         </p>
       </div>
-      <div className="h-[247px] w-[162px] ml-[378px] absolute mt-[112px]  ">
+      <div className="h-[247px] w-[162px] ml-[378px] absolute   ">
         <div className="h-[120px] w-[120px]  ml-[21px]">
           <Image
             src={"/img_b4_menu/Items Of Food.png"}
@@ -47,7 +47,7 @@ const Img_b4_menu = () => {
           320
         </p>
       </div>
-      <div className="h-[247px] w-[248px] ml-[702px] absolute mt-[112px]  ">
+      <div className="h-[247px] w-[248px] ml-[702px] absolute   ">
         <div className="h-[120px] w-[120px]  ml-[64px]">
           <Image
             src={"/img_b4_menu/Years Of Experienced.png"}
@@ -64,7 +64,7 @@ const Img_b4_menu = () => {
           30+
         </p>
       </div>
-      <div className="h-[247px] w-[206px] ml-[1113px] absolute mt-[112px]  ">
+      <div className="h-[247px] w-[206px] ml-[1113px] absolute   ">
         <div className="h-[120px] w-[120px]  ml-[43px]">
           <Image
             src={"/img_b4_menu/Happy Customers.png"}
