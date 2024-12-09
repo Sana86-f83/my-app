@@ -4,6 +4,7 @@ import Footer from "./[restaurant]/footer/page";
 import Food_Category from "./[restaurant]/food_category/page";
 import Chefs from "./[restaurant]/chefs/page";
 import Img_b4_menu from "./img_b4_menu/page";
+import Chooseyou from "./components/choose-you";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Restaurant />
       <About_us />
       <Food_Category />
+      <Chooseyou />
       <Img_b4_menu />
       <Chefs />
       <Footer />

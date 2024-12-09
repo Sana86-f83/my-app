@@ -5,7 +5,7 @@ const Food_Category = () => {
   return (
     <div className="h-[657px] w-[1923px] mt-[120px] relative -ml-[300px] text-white  ">
       <Image
-        src={"/chefs/chefs.png"}
+        src={"/chefs/Chefs.png"}
         alt="Chefs Image"
         width={59}
         height={40}

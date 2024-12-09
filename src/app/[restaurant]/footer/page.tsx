@@ -129,7 +129,7 @@ const Footer = () => {
                 className=""
               ></Image>
               <div className="h-[53px] w-[168px] absolute ml-[76.07px] -mt-[49px] ">
-                <p className="h-[24px] w-[96px] text-[16px] mt-[] ml-[]">
+                <p className="h-[24px] w-[96px] text-[16px] mt-[23]">
                   20 Feb 2022
                 </p>
                 <p className="h-[26px] w-[168px] text-[18px] mt-[3px] tracking-wide">
