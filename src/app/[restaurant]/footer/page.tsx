@@ -128,48 +128,44 @@ const Footer = () => {
                 height={48}
                 className=""
               ></Image>
-              <div className="h-[53px] w-[168px] absolute ml-[76.07px] -mt-[49px] ">
+              <div className="h-[53px] w-[168px] ml-[76px] -mt-[49px] ">
                 <p className="h-[24px] w-[96px] text-[16px] mt-[23]">
                   20 Feb 2022
                 </p>
                 <p className="h-[26px] w-[168px] text-[18px] mt-[3px] tracking-wide">
-                  Keep Your Business{" "}
+                  Keep Your Business
                 </p>
               </div>
             </div>
             {/* Recent Post Image-2 working  */}
-            <div className="h-[53px] w-[244px] absolute mt-[122.98px] ">
+            <div className="h-[53px] w-[244px] absolute mt-[123px] ">
               <Image
-                src={"/footer/Mask Group.png"}
+                src={"/footer/MaskGroup.png"}
                 alt="Mask Group Image"
                 width={59}
                 height={48}
                 className=""
               ></Image>
-              <div className="h-[53px] w-[168px] absolute ml-[76.07px] -mt-[49px] ">
-                <p className="h-[24px] w-[96px] text-[16px] mt-[] ml-[]">
-                  20 Feb 2022
-                </p>
-                <p className="h-[26px] w-[168px] text-[18px] mt-[3px] tracking-wide">
-                  Keep Your Business{" "}
+              <div className="h-[53px] w-[168px]  ml-[76px] -mt-[49px] ">
+                <p className="h-[24px] w-[96px] text-[16px] ">20 Feb 2022</p>
+                <p className="h-[26px] w-[168px] text-[18px] mt-[4px] tracking-wide">
+                  Keep Your Business
                 </p>
               </div>
             </div>
             {/* Recent Post Image-3 working  */}
             <div className="h-[53px] w-[244px] absolute mt-[196px] ">
               <Image
-                src={"/footer/Mask Group (1).png"}
-                alt="Mask Group (1) Image"
+                src={"/footer/2ndimage.png"}
+                alt="2ndimage Image"
                 width={59}
                 height={48}
                 className=""
               ></Image>
-              <div className="h-[53px] w-[168px] absolute ml-[76.07px] -mt-[49px] ">
-                <p className="h-[24px] w-[96px] text-[16px] mt-[] ml-[]">
-                  20 Feb 2022
-                </p>
-                <p className="h-[26px] w-[168px] text-[18px] mt-[3px] tracking-wide">
-                  Keep Your Business{" "}
+              <div className="h-[53px] w-[168px] ml-[76px] -mt-[49px] ">
+                <p className="h-[24px] w-[96px] text-[16px] ">20 Feb 2022</p>
+                <p className="h-[26px] w-[168px] text-[18px] mt-[4px] tracking-wide">
+                  Keep Your Business
                 </p>
               </div>
             </div>

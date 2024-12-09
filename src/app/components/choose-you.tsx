@@ -6,14 +6,7 @@ import { PiWineThin } from "react-icons/pi";
 
 const Chooseyou = () => {
   return (
-    <div className="relative flex  w-[1320px] h-[716px] ml-[300px]  ">
-      <Image
-        src={"/choose-you/rotate-leaf.png"}
-        alt={"bg-leafcrop"}
-        width={600}
-        height={532}
-        className="h-[532px] w-[600px] absolute -mt-[320px] ml-[840px] opacity-90 rotate-100  "
-      ></Image>
+    <div className="relative flex -mt-[140px] w-[1320px] h-[716px] ml-[300px]  ">
       {/* innerdiv-image */}
       {/* leftdiv */}
       <div className="relative w-[659px] h-[716px]">

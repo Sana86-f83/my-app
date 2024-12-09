@@ -3,7 +3,7 @@ import React from "react";
 
 const Food_Category = () => {
   return (
-    <div className="h-[657px] w-[1923px] mt-[120px] relative -ml-[300px] text-white  ">
+    <div className="h-[657px] w-[1923px]  relative -ml-[300px] text-white  ">
       <Image
         src={"/chefs/Chefs.png"}
         alt="Chefs Image"

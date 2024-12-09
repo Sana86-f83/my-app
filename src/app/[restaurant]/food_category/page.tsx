@@ -11,13 +11,13 @@ const Food_Category = () => {
         height={40}
         className="h-[40px] w-[177px] ml-[591px]"
       ></Image>
-      {/* <Image
+      <Image
         src={"/food_category/background.png"}
         alt="background Image"
         width={532}
         height={444}
         className="h-[444px] w-[532px] absolute mt-[100px] ml-[1022px] "
-      ></Image> */}
+      ></Image>
       <h1 className="h-[56px] w-[446px] flex  font-bold text-[48px] mt-[15px] ml-[456px]">
         <span className="text-darkyellow flex h-[60px]">Ch</span>oose Food Item
       </h1>
