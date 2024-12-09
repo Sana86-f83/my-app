@@ -6,8 +6,8 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const Restaurant = () => {
   return (
-    <div className="w-[1920px] h-[925px] bg-black">
-      <div className="w-[1320px]  h-[87px]  flex mx-auto   ">
+    <div className="w-[1920px] h-[925px] bg-black ">
+      <div className="w-[1320px]  h-[87px]  flex m-auto   ">
         {/* Foodtuck */}
         <div className=" flex  ml-[605px] w-[109px] h-[32px] relative justify-center items-center">
           <h1 className="flex text-[24px] font-bold text-darkyellow  font-sans ">

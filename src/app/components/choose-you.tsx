@@ -108,13 +108,13 @@ const Chooseyou = () => {
         </div>
         <div className="flex w-[374px] h-[93px] bg-white  mt-[41px] rounded-lg ml-[2px] ">
           <p className="w-[10px] h-[93px] bg-darkyellow rounded-l-lg"></p>
-          <p className="w-[82px] h-[56px] text-darkyellow ml-[41px] mt-[17px] text-[48px] mb-[17px] font-bold">
+          <p className="w-[82px] h-[56px] text-darkyellow ml-[41px] mt-[15px] text-[48px] mb-[17px] font-bold">
             30+
           </p>
           <p className="w-[143px] h-[32px]  text-[24px] font-bold ml-[24px]  text-bgblack  mt-[42px]">
             Experienced
           </p>
-          <p className="flex w-[105px] h-[28px]  text-[20px] -ml-[141px] mt-[16px] text-black/80">
+          <p className="flex w-[105px] h-[28px]  text-[20px] -ml-[141px] mt-[22px] text-black/80">
             Years of
           </p>
         </div>

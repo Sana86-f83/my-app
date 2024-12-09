@@ -3,7 +3,7 @@ import React from "react";
 
 const Food_Category = () => {
   return (
-    <div className="h-[657px] w-[1923px]  relative -ml-[300px] text-white  ">
+    <div className="h-[657px] w-[1923px]  relative -ml-[300px] text-white  mt-[120px]">
       <Image
         src={"/chefs/Chefs.png"}
         alt="Chefs Image"
@@ -16,7 +16,7 @@ const Food_Category = () => {
         alt="background Image"
         width={531}
         height={409.74}
-        className="h-[409.74px] w-[531px] absolute mt-[100px] ml-[350px] opacity-20"
+        className="h-[409.74px] w-[531px] absolute mt-[100px] ml-[350px] opacity-80"
       ></Image>
       <h1 className="h-[56px] w-[329px] flex  font-bold text-[48px]  ml-[1114px]">
         <span className="text-darkyellow flex h-[60px]">Me</span>et Our Chef
