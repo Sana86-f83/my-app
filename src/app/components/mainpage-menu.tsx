@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
-const MainpageMenu= () => {
+const MainpageMenu = () => {
   return (
     <div className="flex w-[1320px] h-[656px]  m-auto mt-[120px] ">
       <div className="relative flex mx-auto w-[148px] text-[32px] leading-10  h-[40px] ">
         <Image
-          src={"/menu/choose & pick.png"}
+          src={"/menu/choose&pick.png"}
           alt={"menu-head"}
           width={148}
           height={40}
@@ -50,7 +50,7 @@ const MainpageMenu= () => {
             height={306}
             className="w-[515px] h-[306px] rotate-180 "
           ></Image>
-                    <Image
+          <Image
             src={"/menu/bg-plate-leaf.png"}
             alt={"bg-plate-leaf"}
             width={515}
