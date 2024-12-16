@@ -6,7 +6,7 @@ const MainpageMenu = () => {
     <div className="flex w-[1320px] h-[656px]  m-auto mt-[120px] ">
       <div className="relative flex mx-auto w-[148px] text-[32px] leading-10  h-[40px] ">
         <Image
-          src={"/menu/choose&pick.png"}
+          src={"/menu/Choose&pick.png"}
           alt={"menu-head"}
           width={148}
           height={40}
