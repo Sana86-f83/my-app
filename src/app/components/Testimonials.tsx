@@ -3,7 +3,7 @@ import React from "react";
 import { PiQuotesThin } from "react-icons/pi";
 import { IoIosStar } from "react-icons/io";
 
-const Testimonials = () => {
+const Testimonials = ({color="text-black"}) => {
   return (
     <div className=" relative w-[1273px] h-[770px]  ml-[300px] mt-[120px]">
       <div className="w-[129px] h-[40px]">
@@ -14,7 +14,7 @@ const Testimonials = () => {
           height={40}
         ></Image>
       </div>
-      <h1 className="w-[599px] h-[56px] font-bold tracking-tighter text-white text-[48px]  ">
+      <h1 className={` ${color} w-[599px]  h-[56px] font-bold tracking-tighter  text-[48px]  `}>
         What our client are saying
       </h1>
       <div className="relative flex justify-center items-center  w-[868.7px] rounded-lg bg-white/90 h-[451px]  ml-[225.86px] mt-[122.97px]">

@@ -21,6 +21,10 @@ const config: Config = {
         coloricon: "#4F4F4F",
         bgblack: "#0D0D0D",
         cheftextcolor: "#333333",
+        grayborder: "#94959B",
+        inputshadow: "#C4C4C4",
+        gray3: "#828282",
+        gray5: "#E0E0E0",
       },
       fontFamily: {
         sans: ["Helvetica", "Arial", "sans-serif"],
