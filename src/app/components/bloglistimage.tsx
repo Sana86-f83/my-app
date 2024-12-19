@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { BsCalendar2Date } from "react-icons/bs";
 import {
@@ -50,7 +51,7 @@ const BlogListImage = ({ heading }: { heading: string }) => {
               eirmod tempor invidunt ut labore et dolore magna aliquyam erat
             </p>
             <button className="w-[172px] h-[52px] mt-[20px] text-[16px] text-darkyellow flex justify-center items-center border border-darkyellow rounded-lg">
-              Read More{" "}
+              <Link href={"/blogDetails"}> Read More </Link>
               <PiArrowLineUpRightLight className="ml-[10px] text-[22px]" />
             </button>
           </div>

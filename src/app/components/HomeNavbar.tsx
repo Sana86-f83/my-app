@@ -73,7 +73,7 @@ const HomeNavbar = () => {
               <Link href={"/shoplist"}>Shop</Link>
             </li>
             <li className="cursor-pointer hover:underline hover:underline-offset-1">
-              <Link href={"/signup"}>Contact</Link>
+              <Link href={"/not-found"}>Contact</Link>
             </li>
           </ul>
 
