@@ -38,7 +38,7 @@ const Navbar2 = () => {
           </li>
           <li>
             {" "}
-            <Link href={"/signup"}>Contact</Link>
+            <Link href={"/not-found"}>Contact</Link>
           </li>
         </ul>
         <div className="flex justify-between  text-white items-center w-[104px] h-[24px]  ml-[357px]">

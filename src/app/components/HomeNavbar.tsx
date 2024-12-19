@@ -1,10 +1,18 @@
+'use client'
 import Link from "next/link";
 import React from "react";
+import { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { IoIosArrowDown } from "react-icons/io";
 
 const HomeNavbar = () => {
+
+  const [isDropdownOpen,setIsDropDown] = useState(false)
+   const toggleDropdown = ()=> setIsDropDown(!isDropdownOpen)
+  
+
+
   return (
     <div className="w-[1920px] h-[174px] bg-black ">
       <div className="relative w-[1320px] h-[87px] bg-black flex m-auto ">
@@ -27,9 +35,34 @@ const HomeNavbar = () => {
             <li className="cursor-pointer hover:underline hover:underline-offset-1">
               <Link href={"/blog"}>Blog</Link>
             </li>
-            <li className="cursor-pointer hover:underline hover:underline-offset-1">
-              <Link href={"/ourChef"}>Pages</Link>
+            <div>
+            <li className="cursor-pointer hover:underline hover:underline-offset-1 " onClick={toggleDropdown}>
+              <Link href={""}>Pages</Link>
             </li>
+            <ul
+                className={`${
+                  isDropdownOpen ? "block" : "hidden"
+                } absolute  mt-5  bg-white text-black py-1 w-[130px] text-[16px] font-bold  text-left rounded border-2 border-darkyellow ;`}
+              >
+                <li className="py-1 px-2 pl-4 hover:bg-darkyellow hover:text-white cursor-pointer">
+                  <Link href={"/ourChef"}>Our Chef
+                  </Link></li>
+                <li className="py-1 px-2  pl-4 hover:bg-black hover:text-white cursor-pointer">
+                  <Link href={"/checkout"}>CheckOut
+                  </Link></li>
+                <li className="py-1 px-2 pl-4  hover:bg-black hover:text-white cursor-pointer">
+                  <Link href={"/faqpage"}>FAQ</Link>
+                </li>
+                <li className="py-1 px-2 pl-4  hover:bg-black hover:text-white cursor-pointer">
+                 <Link href={"/signup"}> SignUp
+                 </Link></li>
+                <li className="py-1 px-2 pl-4  hover:bg-darkyellow hover:text-white cursor-pointer">
+                 <Link href={"/signup/signIn"}>SignIn</Link> 
+                </li>
+
+              </ul>
+
+            </div>
             <li className="w-[64px] flex gap-1 cursor-pointer">
               <Link href={"/about"}>
                 About

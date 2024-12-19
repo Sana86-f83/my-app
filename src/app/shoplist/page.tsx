@@ -9,6 +9,7 @@ import ShopImages from "../components/shopimagediv";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { IoIosStar } from "react-icons/io";
+import Link from "next/link";
 
 const ShopList = () => {
   return (
@@ -440,7 +441,7 @@ const ShopList = () => {
                         3
                       </div>
                       <div className="  w-[50px] h-[50px] border-2 border-black/20 text-[28px] text-darkyellow hover:text-white hover:bg-darkyellow">
-                        <MdKeyboardDoubleArrowRight className=" text-[28px] mx-auto mt-[10px]" />
+                       <Link href={"/shopDetails"}> <MdKeyboardDoubleArrowRight className=" text-[28px] mx-auto mt-[10px]" /></Link>
                       </div>
                     </div>
             

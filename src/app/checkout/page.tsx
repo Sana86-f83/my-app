@@ -7,6 +7,7 @@ import {
 } from "react-icons/md";
 import Image from "next/image";
 import { GoArrowRight } from "react-icons/go";
+import Link from "next/link";
 
 const CheckOut = () => {
   return (
@@ -86,7 +87,7 @@ const CheckOut = () => {
             <div className="w-[424px] h-[56px] mt-[24px] flex justify-center items-center border-2 border-gray-300 ">
               <MdKeyboardArrowLeft className="text-[30px] mt-[5px]" />
               <p className="text-[16px] font-normal ml-[5px] mt-[8px]">
-                Back to cart
+                <Link href={"/ShoppingCart"}>Back to cart </Link>
               </p>
             </div>
           </div>

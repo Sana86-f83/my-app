@@ -25,6 +25,7 @@ export default function Home() {
       <Testimonials color="text-white" />
       <Active />
       <BlogPost />
+
     </div>
   );
 }

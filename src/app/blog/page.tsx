@@ -77,13 +77,15 @@ const Bloglist = () => {
             </h1>
             {/* cart1 */}
 
-            <div className="flex justify-center w-[323px] h-[107px] ml-[50px] mt-[18px]">
-              <Image
-                src={"/bloglist/sidebarimage/recentpost-image1.png"}
-                alt={"recentpost-boximage1"}
-                width={99}
-                height={92}
-              ></Image>
+            <div className="flex justify-center w-[323px] h-[107px] ml-[50px] mt-[18px] ">
+              <div className="w-[99px] h-[91px]">
+                <Image
+                  src={"/bloglist/sidebarimage/recentpost-image1.png"}
+                  alt={"recentpost-boximage1"}
+                  width={99}
+                  height={91}
+                ></Image>
+              </div>
               <div className="w-[205px] h-[78px] ml-[18px] ">
                 <p className="w-[89px] h-[22px] text-[14px] bg-white justify-center">
                   June 22, 2020
@@ -96,12 +98,14 @@ const Bloglist = () => {
             <hr className="w-[322px] text-cheftextcolor h-[4px] ml-[50px] " />
             {/* cart2 */}
             <div className="flex justify-center w-[323px] h-[107px]  ml-[50px] mt-[24px]">
-              <Image
-                src={"/bloglist/sidebarimage/recentpost-image2.png"}
-                alt={"recentpost-boximage2"}
-                width={99}
-                height={92}
-              ></Image>
+              <div className="w-[99px] h-[91px]">
+                <Image
+                  src={"/bloglist/sidebarimage/recentpost-image2.png"}
+                  alt={"recentpost-boximage2"}
+                  width={99}
+                  height={91}
+                ></Image>
+              </div>
               <div className="w-[205px] h-[78px] ml-[18px] ">
                 <p className="w-[89px] h-[22px] text-[14px] bg-white justify-center">
                   June 22, 2020
@@ -114,12 +118,14 @@ const Bloglist = () => {
             <hr className="w-[322px] text-cheftextcolor h-[4px] ml-[50px] " />
             {/* cart2 */}
             <div className="flex justify-center w-[323px] h-[107px]  ml-[50px] mt-[24px]">
-              <Image
-                src={"/bloglist/sidebarimage/recentpost-image3.png"}
-                alt={"recentpost-boximage3"}
-                width={99}
-                height={92}
-              ></Image>
+              <div className="w-[99px] h-[91px]">
+                <Image
+                  src={"/bloglist/sidebarimage/recentpost-image3.png"}
+                  alt={"recentpost-boximage3"}
+                  width={99}
+                  height={91}
+                ></Image>
+              </div>
               <div className="w-[205px] h-[78px] ml-[18px] ">
                 <p className="w-[89px] h-[22px] text-[14px] bg-white justify-center">
                   June 22, 2020
@@ -132,12 +138,14 @@ const Bloglist = () => {
             <hr className="w-[322px] text-cheftextcolor h-[4px] ml-[50px] " />
             {/* cart2 */}
             <div className="flex justify-center w-[323px] h-[107px]  ml-[50px] mt-[24px]">
-              <Image
-                src={"/bloglist/sidebarimage/recentpost-image4.png"}
-                alt={"recentpost-boximage4"}
-                width={99}
-                height={92}
-              ></Image>
+              <div className="w-[99px] h-[91px]">
+                <Image
+                  src={"/bloglist/sidebarimage/recentpost-image4.png"}
+                  alt={"recentpost-boximage4"}
+                  width={99}
+                  height={92}
+                ></Image>
+              </div>
               <div className="w-[205px] h-[78px] ml-[18px] ">
                 <p className="w-[89px] h-[22px] text-[14px] bg-white justify-center">
                   June 22, 2020
@@ -150,25 +158,27 @@ const Bloglist = () => {
             <hr className="w-[322px] text-cheftextcolor h-[4px] ml-[50px] " />
           </div>
           {/* Filter by MEnu */}
-          <div className="w-[423px] h-[490px] absolute mt-[1156px] border-2 border-black/20">
+          <div className="w-[423px] h-[487px] absolute mt-[1156px] border-2 border-black/20 ">
             <h1 className="w-[140px] h-[28px]  text-[20px] mt-[24px] ml-[56px] font-bold leading-7 text-cheftextcolor">
               Filter By Menu
             </h1>
             {/* filtermenucart-1-chicken-fry */}
-            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[24px]">
-              <Image
-                src={"/bloglist/sidebarimage/filtermenu-image1.png"}
-                alt={"filtermenuimage1"}
-                width={67}
-                height={62}
-              ></Image>
+            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[24px] ">
+              <div className="w-[67px] h-[62px]">
+                <Image
+                  src={"/bloglist/sidebarimage/filtermenu-image1.png"}
+                  alt={"filtermenuimage1"}
+                  width={67}
+                  height={62}
+                ></Image>
+              </div>
               <h1 className="flex w-[92px] h-[24px]  ml-[19px] mt-[16px] text-cheftextcolor">
                 Chicken Fry
               </h1>
               <p className=" ml-[116px] my-auto">26</p>
             </div>
             {/* filtermenucart-2-burger-food*/}
-            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[24px]">
+            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[16px]">
               <Image
                 src={"/bloglist/sidebarimage/filtermenu-image2.png"}
                 alt={"filtermenuimage2"}
@@ -181,7 +191,7 @@ const Bloglist = () => {
               <p className=" ml-[116px] my-auto">46</p>
             </div>
             {/* filtermenucart-3-Pizza */}
-            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[24px]">
+            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[16px]">
               <Image
                 src={"/bloglist/sidebarimage/filtermenu-image3.png"}
                 alt={"filtermenuimage3"}
@@ -194,7 +204,7 @@ const Bloglist = () => {
               <p className=" ml-[116px] my-auto">18</p>
             </div>
             {/* filtermenucart-4-FreshFruits*/}
-            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[24px]">
+            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[16px]">
               <Image
                 src={"/bloglist/sidebarimage/filtermenu-image4.png"}
                 alt={"filtermenuimage4"}
@@ -207,7 +217,7 @@ const Bloglist = () => {
               <p className=" ml-[116px] my-auto">36</p>
             </div>
             {/* filtermenucart-5-Vegetables*/}
-            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[24px]">
+            <div className="flex w-[311px] h-[62px]  ml-[56px] mt-[16px]">
               <Image
                 src={"/bloglist/sidebarimage/filtermenu-image5.png"}
                 alt={"filtermenuimage5"}
@@ -222,7 +232,7 @@ const Bloglist = () => {
 
             <hr className="w-[322px] text-cheftextcolor h-[4px] ml-[50px] " />
             {/* Popular-Tags-box */}
-            <div className="w-[423px] h-[308px]  mt-[24px] border-2 border-black/20">
+            <div className="w-[423px] h-[307px]  mt-[52px] border-2 border-black/20 ">
               <div className=" w-[325px]  h-[244px]  ml-[55px]  absolute mt-[32px] ">
                 <h1 className="w-[127px] h-[28px] font-bold text-[20px] text-cheftextcolor">
                   Populer Tags
