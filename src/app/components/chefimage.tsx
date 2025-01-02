@@ -21,7 +21,7 @@ const ChefImage = ({ name, detail, image }: ChefImageProps) => {
           height={446}
         />
 
-        <div className="felx  w-[312px] h-[67px] bg-white/90 mt-[379px] absolute">
+        <div className="flex  w-[312px] h-[67px] bg-white/90 mt-[379px] absolute">
           <h1 className="flex  w-[60%] left-[50%]  font-semibold h-[28px] text-[20px] text-cheftextcolor mt-[12px] m-auto justify-center  ">
             {name}
           </h1>

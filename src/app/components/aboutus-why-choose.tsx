@@ -4,6 +4,7 @@ import { PiCoffeeThin, PiPersonThin, PiStudentLight } from "react-icons/pi";
 
 const WhyChoose = () => {
   return (
+    <div className="w-[1920px] h-[865px]">
     <div className="w-[1320px] h-[865px]  mt-[974px] m-auto">
       <div className="w-[579px] h-[112px]  m-auto">
         <h1 className="w-[361px] h-[56px] text-center m-auto text-[48px] font-bold font-wide text-cheftextcolor">
@@ -62,6 +63,7 @@ const WhyChoose = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -37,11 +37,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className=" w-[1920px] bg-black ">
-          <Navbar2 />
+        <div className="">
+          {/* <Navbar2 /> */}
           {children}
 
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>
